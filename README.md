@@ -3,6 +3,7 @@ This is a Machine learning prediction for global samsung sales project
 
 ## Reports and Findings
 
+### Dataset 
 The task of this dataset is to find the relationship between the features and the target revenue. 
 
 This will help the company to determine the sales strategy and how to increase the revenue.  
@@ -34,15 +35,17 @@ The distribution of the target variable, revenue is stated as follow:
 
 
 
-![revenue_distribution](revenue_dist)
+![revenue_distribution](img\revenue_dist)
 
 The revenue is transformed into log form for better ML model prediction. 
 
 
 
 
-We have found the highest number of units sold across each contry for all items:
-	
+We have found the highest number of units sold across each country for all items:
+
+(selected data)
+
 |country|	units_sold|
 |--------|----------|
 |Norway	 | 834|
@@ -55,11 +58,93 @@ We have found the highest number of units sold across each contry for all items:
 |Spain	 |   738|
 |Austria	|  733|
 
-![units sold](sales_count)
+![units sold](img\sales_count)
+
+
+We have also find out the correlation with the revenue and remove highly correlated features: 
+
+![correlations](img\feature_corr)
+
+
+### ML models
+
+By using OOP, we can easily select the ML models we want. 
+
+The ML models used in this data set are Linear regression and Random forest regression prediction.
+
+#### Linear Regression
+
+
+Training set:(12400, 27)
+
+Test set: (3100, 27)
+
+
+Model performance:
+
+
+Training set:
+
+R2 score: 0.9088
+
+MAE: $0.14
+
+Test set:
+
+R2 score: 0.9020
+MAE: $0.14
+
+Accuracy:  0.9020100073990232
+
+
+
+We have also foud out the top important coefficients for linear regressions: 
+
+ |TOP 10 Positive coefficeints (Increase Revenue)| 
+             | Feature | Coefficient|
+|-----------------------------------|			 
+ |    category_Monitor   |  0.272674 |
+ | category_Appliances   |  0.272595 |
+ |   category_Smart TV   |  0.264512 |
+  |category_Galaxy Tab   |  0.247098 |
+  |          is_5g_Yes   |  0.236500 |
+  |         units_sold   |  0.141722 |
+  |  category_Galaxy S   |  0.126653 |
+  |  category_Galaxy Z   |  0.123760 |
+|category_Galaxy Watch   |  0.029654 |
+ |      color_Lavender   |  0.009932 |
+
+
+ |TOP 10 Negative coefficeints (Not help Revenue)| 
+            | Feature | Coefficient|
+|-------------------------------------|
+| color_Awesome Peach  |  -0.000839 |
+ |       discount_pct  |  -0.002330 |
+ |        color_Black  |  -0.003042 |
+ |     region_Oceania  |  -0.003884 |
+ |  color_Pink_violet  |  -0.004698 |
+ |         color_Blue  |  -0.011573 |
+ |  category_Galaxy A  |  -0.141940 |
+|category_Galaxy Buds  |  -0.193492 |
+|   category_Galaxy M  |  -0.264251 |
+|category_Accessories  |  -0.737263 |
+
+
+
+![linear regression plot](img/lr_plot)
+
+
+
+### Random Forest Regression
 
 
 
 
+
+
+## Conclusion
+
+We have successfully make a data analysis on the sales data. 
 
 
 
