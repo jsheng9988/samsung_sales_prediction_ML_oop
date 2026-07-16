@@ -35,7 +35,7 @@ The distribution of the target variable, revenue is stated as follow:
 
 
 
-![revenue_distribution](img\revenue_dist)
+![revenue_distribution](img/revenue_dist.png)
 
 The revenue is transformed into log form for better ML model prediction. 
 
@@ -58,12 +58,12 @@ We have found the highest number of units sold across each country for all items
 |Spain	 |   738|
 |Austria	|  733|
 
-![units sold](img\sales_count)
+![units sold](img/sales_count.png)
 
 
 We have also find out the correlation with the revenue and remove highly correlated features: 
 
-![correlations](img\feature_corr)
+![correlations](img/feature_corr.png)
 
 
 ### ML models
@@ -129,7 +129,7 @@ We have also foud out the top important coefficients for linear regressions:
 
 
 
-![linear regression plot](img/lr_plot)
+![linear regression plot](img/lr_plot.png)
 
 
 
@@ -169,7 +169,7 @@ Accuracy:  0.8405175561632818
  |   category_Galaxy S  |  0.007063|
 
 
-![RF feature importance](rf_importan)
+![RF feature importance](img/rf_importan.png)
 
 
 ## Conclusion
