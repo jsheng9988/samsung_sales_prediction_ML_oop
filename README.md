@@ -101,9 +101,8 @@ Accuracy:  0.9020100073990232
 We have also foud out the top important coefficients for linear regressions: 
 
  TOP 10 Positive coefficeints (Increase Revenue)
-
  
-             | Feature | Coefficient|
+ | Feature | Coefficient|
 |-----------------------|------------|			 
  |    category_Monitor   |  0.272674 |
  | category_Appliances   |  0.272595 |
@@ -121,7 +120,7 @@ We have also foud out the top important coefficients for linear regressions:
 
 
 
-            | Feature | Coefficient|
+  | Feature | Coefficient|
 |----------------------|---------------|
 | color_Awesome Peach  |  -0.000839 |
  |       discount_pct  |  -0.002330 |
