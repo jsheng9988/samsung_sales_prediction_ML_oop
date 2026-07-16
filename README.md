@@ -1,5 +1,6 @@
 # samsung_sales_prediction_ML_oop
-This is a Machine learning prediction for global samsung sales project
+This is a Machine learning prediction for global samsung sales project  
+Data sourced from https://www.kaggle.com/datasets/ashyou09/samsung-global-product-sales-dataset
 
 ## Reports and Findings
 
