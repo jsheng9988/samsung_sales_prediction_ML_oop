@@ -100,8 +100,9 @@ Accuracy:  0.9020100073990232
 
 We have also foud out the top important coefficients for linear regressions: 
 
- |TOP 10 Positive coefficeints (Increase Revenue)| 
- |------------------------------------------|
+ TOP 10 Positive coefficeints (Increase Revenue)
+
+ 
              | Feature | Coefficient|
 |-----------------------------------|			 
  |    category_Monitor   |  0.272674 |
@@ -116,8 +117,10 @@ We have also foud out the top important coefficients for linear regressions:
  |      color_Lavender   |  0.009932 |
 
 
- |TOP 10 Negative coefficeints (Not help Revenue)| 
- |--------------------------------------------------|
+ TOP 10 Negative coefficeints (Not help Revenue)
+
+
+
             | Feature | Coefficient|
 |-------------------------------------|
 | color_Awesome Peach  |  -0.000839 |
