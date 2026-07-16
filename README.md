@@ -75,22 +75,16 @@ The ML models used in this data set are Linear regression and Random forest regr
 #### Linear Regression
 
 
-Training set:(12400, 27)__
-
-Test set: (3100, 27)__
-
+Training set:(12400, 27)  
+Test set: (3100, 27)  
 
 Model performance:  
 
-
 Training set:  
-
 R2 score: 0.9088 
-
 MAE: $0.14  
 
 Test set:  
-
 R2 score: 0.9020  
 MAE: $0.14  
 
@@ -156,6 +150,26 @@ MAE: $0.18
 
 Accuracy:  0.8405175561632818  
 
+
+
+ TOP 10 MOST IMPORTANT FEATURES 
+
+ 
+ | Feature | Importance|
+ |---------------|---------------|
+ |category_Accessories |  0.419268|
+  |         units_sold  |  0.252561|
+ |   category_Smart TV   | 0.056917|
+|category_Galaxy Watch  |  0.044540|
+| category_Galaxy Buds   | 0.041421|
+ |   category_Galaxy M  |  0.039713|
+|    category_Galaxy A  |  0.037819|
+ |        discount_pct  |  0.023971|
+ |           is_5g_Yes   | 0.022984|
+ |   category_Galaxy S  |  0.007063|
+
+
+![RF feature importance](rf_importan)
 
 
 ## Conclusion
