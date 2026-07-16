@@ -104,7 +104,7 @@ We have also foud out the top important coefficients for linear regressions:
 
  
              | Feature | Coefficient|
-|-----------------------------------|			 
+|-----------------------|------------|			 
  |    category_Monitor   |  0.272674 |
  | category_Appliances   |  0.272595 |
  |   category_Smart TV   |  0.264512 |
@@ -122,7 +122,7 @@ We have also foud out the top important coefficients for linear regressions:
 
 
             | Feature | Coefficient|
-|-------------------------------------|
+|----------------------|---------------|
 | color_Awesome Peach  |  -0.000839 |
  |       discount_pct  |  -0.002330 |
  |        color_Black  |  -0.003042 |
