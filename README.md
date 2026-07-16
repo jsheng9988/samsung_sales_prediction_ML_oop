@@ -75,26 +75,26 @@ The ML models used in this data set are Linear regression and Random forest regr
 #### Linear Regression
 
 
-Training set:(12400, 27)
+Training set:(12400, 27)__
 
-Test set: (3100, 27)
-
-
-Model performance:
+Test set: (3100, 27)__
 
 
-Training set:
+Model performance:__
 
-R2 score: 0.9088
 
-MAE: $0.14
+Training set:__
 
-Test set:
+R2 score: 0.9088__
 
-R2 score: 0.9020
-MAE: $0.14
+MAE: $0.14__
 
-Accuracy:  0.9020100073990232
+Test set:__
+
+R2 score: 0.9020__
+MAE: $0.14__
+
+Accuracy:  0.9020100073990232__
 
 
 
@@ -142,7 +142,19 @@ We have also foud out the top important coefficients for linear regressions:
 ### Random Forest Regression
 
 
+Training set:(12400, 26)__
+Test set: (3100, 26)__
+Model performance:__
 
+Training set:__
+R2 score: 0.9141__
+MAE: $0.12__
+
+Test set:__
+R2 score: 0.8405__
+MAE: $0.18__
+
+Accuracy:  0.8405175561632818__
 
 
 
