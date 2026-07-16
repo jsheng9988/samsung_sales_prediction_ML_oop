@@ -35,7 +35,7 @@ The distribution of the target variable, revenue is stated as follow:
 
 
 
-![revenue_distribution](img/revenue_dist.png)
+![revenue_distribution](/img/revenue_dist.png)
 
 The revenue is transformed into log form for better ML model prediction. 
 
@@ -58,12 +58,12 @@ We have found the highest number of units sold across each country for all items
 |Spain	 |   738|
 |Austria	|  733|
 
-![units sold](img/sales_count.png)
+![units sold](/img/sales_count.png)
 
 
 We have also find out the correlation with the revenue and remove highly correlated features: 
 
-![correlations](img/feature_corr.png)
+![correlations](/img/feature_corr.png)
 
 
 ### ML models
@@ -129,7 +129,7 @@ We have also foud out the top important coefficients for linear regressions:
 
 
 
-![linear regression plot](img/lr_plot.png)
+![linear regression plot](/img/lr_plot.png)
 
 
 
@@ -169,15 +169,24 @@ Accuracy:  0.8405175561632818
  |   category_Galaxy S  |  0.007063|
 
 
-![RF feature importance](img/rf_importan.png)
+![RF feature importance](/img/rf_importan.png)
 
 
 ## Conclusion
 
+
+
 We have successfully make a data analysis on the sales data. 
 
+From the correlation observation, unit price and discounted price directly related to the revenue because they relects clearly the price. The Accessories is negatively correlated with revenue, because they have low price and with low revenue. However, they constitute large part of the sales. 
 
 
+We have obtained the result for linear regression with R2 score: 0.9020 for and RF regression with R2 score of  0.8405. This means that both models can accurately predict the revenue.  
+
+
+From the coefficients of linear regression, we can see that monitor, appliances, smart tv and galaxy tab determines the revenue. This is because those are popular sales, especially the smart tv are expensive and sold in bulk. Meanwhile, we can see the colour of the product do not affect the revenue much.  
+
+The most important features for RF are Accessories and units sold to predict the revenue. Samrt tv also plays hig factor for revenue because it has high price and sold many units.   
 
 
 
