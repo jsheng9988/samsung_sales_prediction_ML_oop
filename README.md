@@ -80,21 +80,21 @@ Training set:(12400, 27)__
 Test set: (3100, 27)__
 
 
-Model performance:__
+Model performance:  
 
 
-Training set:__
+Training set:  
 
-R2 score: 0.9088__
+R2 score: 0.9088 
 
-MAE: $0.14__
+MAE: $0.14  
 
-Test set:__
+Test set:  
 
-R2 score: 0.9020__
-MAE: $0.14__
+R2 score: 0.9020  
+MAE: $0.14  
 
-Accuracy:  0.9020100073990232__
+Accuracy:  0.9020100073990232  
 
 
 
@@ -142,19 +142,19 @@ We have also foud out the top important coefficients for linear regressions:
 ### Random Forest Regression
 
 
-Training set:(12400, 26)__
-Test set: (3100, 26)__
-Model performance:__
+Training set:(12400, 26)  
+Test set: (3100, 26)  
+Model performance:    
 
-Training set:__
-R2 score: 0.9141__
-MAE: $0.12__
+Training set:  
+R2 score: 0.9141  
+MAE: $0.12  
 
-Test set:__
-R2 score: 0.8405__
-MAE: $0.18__
+Test set:  
+R2 score: 0.8405  
+MAE: $0.18  
 
-Accuracy:  0.8405175561632818__
+Accuracy:  0.8405175561632818  
 
 
 
